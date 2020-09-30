@@ -1,0 +1,6 @@
+# Specific for our TemPer USB devices - different versions are likely to use 
+# different IDs
+
+ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="0c45", ATTR{idProduct}=="7401", \
+  MODE="0666"
+
