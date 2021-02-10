@@ -10,6 +10,9 @@ def user_auth_handler(username, password):
     
     def handler(url, method, timeout, headers, data):
         return basic_auth_handler(url, method, timeout, headers, data, username, password)
+    
+    return handler
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Record temperature metrics from temper temperature monitor')
