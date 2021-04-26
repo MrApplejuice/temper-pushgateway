@@ -4,7 +4,7 @@ Tiny script to allow pushing metrics from a TEMPer USB temperature sensor to a p
 
 # How to install:
 
-- Have Python 3.8 + pip installed
+- Have Python >=3.6 + pip installed
 - Checkout repository
 - Install pipenv: `pip install pipenv`
 - Install pipenv environment: `pipenv install`
